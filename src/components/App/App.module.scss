@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+#root{
+  background-color: #E5E5E5;
+}
+img{
+  vertical-align: middle;
+}
+body{
+  position: relative;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #22343D;
+}
+h1, h2, h3, h4, h5, h6, ul, p,li, blockquote{
+  margin: 0px;
+  padding: 0px;
+}

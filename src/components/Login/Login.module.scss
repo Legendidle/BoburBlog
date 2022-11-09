@@ -1,0 +1,55 @@
+$button: #000000;
+.loginLogo{
+    margin-bottom: 77px;
+    cursor: pointer;
+}
+.titleBox {
+    max-width: 760px;
+    margin: 0 auto;
+    margin-bottom: 116px;
+}
+.loginText{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+    color: #000000;
+}
+.loginForm{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+}
+.loginFormName{
+    text-align: center;
+    margin-bottom: 56px !important;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 53px;
+}
+.loginInput{
+    margin-bottom: 24px;
+    padding: 12px 15px;
+    background: #F4F4F4;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.loginButton{
+    padding: 12px 0px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    background-color: $button;
+    border-radius: 3px;
+
+    &:hover{
+        background-color: lighten($button, 30%);
+    }
+}

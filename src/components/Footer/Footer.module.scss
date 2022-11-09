@@ -1,0 +1,67 @@
+.footer{
+  
+  background-color: #000000;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    padding: 40px 20px 45px 20px;
+    margin: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-between;
+    background-image: url(../../assets/Subtract.png);
+    background-repeat: no-repeat;
+    background-position: -40%;
+}
+.logoLink{
+    display: inline;
+    width: 182px;
+    margin-bottom: 20px;
+}
+.box{
+    gap: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.suggestTitle{
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 16px;
+}
+.link{
+    padding: 3px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    &:hover, :active{
+        border-bottom: 1.5px solid #FFFFFF;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    .container{
+        flex-direction: column;
+        background-image: url(../../assets/Subtract2.png);
+        background-repeat: no-repeat;
+        background-position: 0;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    .box{
+        flex-direction: column;
+    }
+}

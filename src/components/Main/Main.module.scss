@@ -1,0 +1,132 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    min-height: calc(100vh - 495px);
+    margin: 0 auto;
+    padding: 0px 20px;
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+.infoBox{
+    max-width: 30%;
+}
+.infoTitle{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #474747;
+    margin-bottom: 36px;
+}
+.infoText{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #474747;
+    margin-bottom: 25px;
+}
+.infoExplorer{
+    position: relative;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #474747;
+
+    &::after{
+        position: absolute;
+        left: 85px;
+        bottom: -3px;
+        content: "";
+        display: inline-block;
+        background-image: url(../../assets/arrowbg.png);
+        width: 20px;
+        height: 20px;
+    }
+}
+.infoList{
+    max-width: 143px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+.contentList{
+    max-width: 50%;
+    list-style: none;
+    margin-right: 150px;
+}
+.contentTitle{
+    margin-bottom: 58px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #474747;
+} 
+
+.contentLink {
+    display: inline-block;
+    text-decoration: none;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.contentLink ~ .contentLink{
+    margin-top: 46px;
+}
+.categoryInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.contentDate{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #777777;
+}
+.contentName{
+    margin-bottom: 20px;
+    max-width: 50%;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #474747;
+}
+.contentText{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #474747;
+}
+.contentTime{
+    display: flex;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #777777;
+
+    &::before{
+        content: "";
+        margin-right: 10px;
+        display: inline-block;
+        background-image: url(../../assets/clock.png);
+        width: 20px;
+        height: 20px;
+    }
+}
+.loading{
+    padding-top: 200px;
+    width: 100vw;
+    min-height: calc(100vh - 495px);
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    opacity: .9;
+}
