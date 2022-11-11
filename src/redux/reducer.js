@@ -24,7 +24,6 @@ const postReducer = createSlice({
         isLoading:(state,action) => {
             state.loading = action.payload
         }
-
     }
 })
 

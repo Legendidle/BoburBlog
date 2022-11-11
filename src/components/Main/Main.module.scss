@@ -130,3 +130,22 @@
     background-color: #fff;
     opacity: .9;
 }
+
+@media only screen and (max-width: 870px){
+    .container{
+        text-align: center;
+        justify-content: space;
+        flex-direction: column-reverse;
+    }
+    .infoBox{
+        max-width: 100%;
+        margin-top: 40px;
+    }
+    .contentList{
+        max-width: 100%;
+        margin-right: 0;
+    }
+    .contentName{
+        max-width: 100%;
+    }
+}
