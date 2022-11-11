@@ -5,3 +5,123 @@
     margin-bottom: 100px;
     margin-top: 80px;
 }
+.justify{
+    display: flex;
+    width: 100%;
+}
+.likeList{
+    text-align: center;
+    display: block;
+    width: 260px;
+    list-style: none;
+}
+.likeItem{
+    margin-bottom: 50px;
+}
+.likesNumber{
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+}
+.all{
+    max-width: 737px;
+}
+.title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #474747;
+    margin-bottom: 25px;
+}
+.dateBox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 45px;
+}
+.date{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #777777;
+    margin-right: 16px;
+}
+.cut{
+    width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.content{
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #474747;
+}
+.image{
+    width: 100%;
+}
+.overload{
+    margin: 20px 0px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 28px;
+    color: #474747;
+}
+.description{
+    margin-bottom: 80px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #474747;
+}
+.more{
+    display: flex;
+    flex-direction: column;
+}
+.moreTitle{
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+}
+.moreList{
+    list-style: none;
+}
+.moreItem{
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+.moreDateBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.moreDate{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #777777;
+}
+.moreName{
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    color: #474747;
+}
+
+@media only screen and (max-width: 768px){
+ .likeList{
+    display: none;
+ }
+ .all{
+    max-width: 100%;
+    width: 100%;    
+ }
+}

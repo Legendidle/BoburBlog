@@ -111,7 +111,7 @@ function Main() {
           >
             <li className={styles.contentItem}>
               <div className={styles.categoryInfo}>
-                <p className={styles.contentDate}>{post.createdAt}</p>
+                <p className={styles.contentDate}>{post.createdAt.slice(0,10)}</p>
                 <p className={styles.contentDate}>{category}</p>
               </div>
               <h4 className={styles.contentName}>
@@ -120,7 +120,7 @@ function Main() {
               <p className={styles.contentText}>
                 {post.description}
               </p>
-              <p className={styles.contentTime}>{post.readTime}</p>
+              <p className={styles.contentTime}>{post.readTime} minutes read</p>
             </li>
           </Link>
         ))
